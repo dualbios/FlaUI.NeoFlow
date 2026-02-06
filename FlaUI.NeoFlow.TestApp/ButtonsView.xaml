@@ -1,0 +1,32 @@
+<UserControl x:Class="FlaUI.NeoFlow.TestApp.ButtonsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <ListBox Uid="ButtonsListBoxUid"
+             Width="200"
+             VerticalAlignment="Center">
+        <ListBox.Resources>
+            <Style x:Key="ButtonStyle"
+                   TargetType="Button">
+                <Setter Property="Margin" Value="4" />
+            </Style>
+        </ListBox.Resources>
+        <Button Uid="ButtonView_Button1"
+                Content="Button 1"
+                Style="{StaticResource ButtonStyle}" />
+        <Button Uid="ButtonView_Button2"
+                Content="Button 2"
+                Style="{StaticResource ButtonStyle}" />
+        <Button Uid="ButtonView_Button3"
+                Content="Button 3"
+                Style="{StaticResource ButtonStyle}" />
+        <Button Uid="ButtonView_Button4"
+                Content="Button 4"
+                Style="{StaticResource ButtonStyle}" />
+        <Button Uid="ButtonView_Button5"
+                Content="Button 5"
+                Style="{StaticResource ButtonStyle}" />
+    </ListBox>
+</UserControl>

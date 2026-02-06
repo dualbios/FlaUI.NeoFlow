@@ -1,0 +1,7 @@
+<Solution>
+    <Project Path="FlaUI.NeoFlow.Editor/FlaUI.NeoFlow.Editor.csproj" />
+    <Project Path="FlaUI.NeoFlow.Script.Tests/FlaUI.NeoFlow.Script.Tests.csproj" />
+    <Project Path="FlaUI.NeoFlow.Script/FlaUI.NeoFlow.Script.csproj" />
+    <Project Path="FlaUI.NeoFlow.Selector/FlaUI.NeoFlow.Selector.csproj" />
+    <Project Path="FlaUI.NeoFlow.TestApp/FlaUI.NeoFlow.TestApp.csproj" />
+</Solution>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UseWpf>true</UseWpf>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FlaUI.Core" Version="5.0.0"/>
+        <PackageReference Include="FlaUI.UIA3" Version="5.0.0"/>
+        <PackageReference Include="MoonSharp" Version="2.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\FlaUI.NeoFlow.Script\FlaUI.NeoFlow.Script.csproj"/>
+    </ItemGroup>
+
+</Project>

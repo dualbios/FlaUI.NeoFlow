@@ -1,0 +1,32 @@
+<UserControl x:Class="FlaUI.NeoFlow.TestApp.CheckboxesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <ListBox Uid="CheckboxesListBoxUid"
+             Width="200"
+             VerticalAlignment="Center">
+        <ListBox.Resources>
+            <Style x:Key="CheckBoxStyle"
+                   TargetType="CheckBox">
+                <Setter Property="Margin" Value="4" />
+            </Style>
+        </ListBox.Resources>
+        <CheckBox Uid="CheckboxesView_CheckBox1"
+                  Content="CheckBox 1"
+                  Style="{StaticResource CheckBoxStyle}" />
+        <CheckBox Uid="CheckboxesView_CheckBox2"
+                  Content="CheckBox 2"
+                  Style="{StaticResource CheckBoxStyle}" />
+        <CheckBox Uid="CheckboxesView_CheckBox3"
+                  Content="CheckBox 3"
+                  Style="{StaticResource CheckBoxStyle}" />
+        <CheckBox Uid="CheckboxesView_CheckBox4"
+                  Content="CheckBox 4"
+                  Style="{StaticResource CheckBoxStyle}" />
+        <CheckBox Uid="CheckboxesView_CheckBox5"
+                  Content="CheckBox 5"
+                  Style="{StaticResource CheckBoxStyle}" />
+    </ListBox>
+</UserControl>
